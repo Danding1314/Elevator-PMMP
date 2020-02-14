@@ -33,7 +33,7 @@ class Elevator extends PluginBase
 
     public function onEnable()
     {
-        //initMyPlot
+        //initMyPlot  test
         $this->myplot = $this->getServer()->getPluginManager()->getPlugin("MyPlot");
         if($this->myplot === null) {
             $this->getLogger()->error("Das Plugin \"MyPlot\" konnte auf diesem Server nicht gefunden werden.");
