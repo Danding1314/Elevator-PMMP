@@ -1,0 +1,23 @@
+name: Elevator
+main: ceepkev77\Elevator\Elevator
+version: "1.0"
+api: [3.0.0, 4.0.0]
+author: ceepkev77
+
+permissions:
+    elevator.*:
+        default: op
+        description: "Gib einem Spieler Zugriff auf alle Funktionen dieses Plugins."
+        children:
+            elevator.admin.use:
+                default: op
+                description: "Erlaube einem Spieler alle Aufzüge zu nutzen."
+            elevator.admin.interact:
+                default: op
+                description: "Erlaube einem Spieler alle Aufzüge umzustellen."
+            elevator.admin.create:
+                default: op
+                description: "Erlaube einem Spieler überall Aufzüge zu erstellen."
+            elevator.admin.remove:
+                default: op
+                description: "Erlaube einem Spieler überall Aufzüge zu zerstören."
